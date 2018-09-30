@@ -1,9 +1,17 @@
 $(function(){
   var job = $("#jobs");
   $("#bankroll").click(function(){
-    job.append("<li>Bankroll Prison</li>");
+    job.remove("#one");
+    job.append("<li id='one'>Bankroll Prison</li>");
   });
   $("#johns").click(function(){
-    job.append("<li>John's General Store</li>");
+    job.remove("#two");
+    job.append("<li id='two'>John's General Store</li>");
+  });
+  $("#removeone").click(function(){
+    job.remove("#one");
+  });
+  $("#removetwo").click(function(){
+    job.remove("#two");
   });
 });

@@ -14,7 +14,7 @@ a {
   cursor: pointer;
   color: #333;
 }
-.dropbtn {
+.dropbtn, #bankroll, #johns {
   background-color: #333;
   color: white;
   padding: 16px;
@@ -34,7 +34,7 @@ a {
   z-index: 1;
 }
 .dropdown-content a {
-  color: white !important;
+  color: white;
   padding: 12px 16px;
   display: block;
   text-decoration: none;
